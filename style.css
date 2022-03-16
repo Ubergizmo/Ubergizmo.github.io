@@ -1,0 +1,56 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    color: gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0;
+}
+
+li{
+    list-style-type: none;
+}
+li:hover{
+    background-color:#e18cd4;
+}
+
+#menu ul{
+    padding-left: 2px;
+    margin-top: 0;
+}
+
+
+#menu{
+    border-right: 1px solid gray;
+    width: 100px;
+    height: max-content;
+    position: relative;
+}
+
+#deroul1 li, #deroul2 li{   
+    left: -999px;
+    position: absolute;
+}
+
+#deroul1 ul, #deroul2 ul{
+    position: absolute;
+}
+
+#deroul1:hover li , #deroul2:hover li {
+    position: relative;
+    text-align: justify;
+    padding:0px 10px;
+    left: 96px;
+    top: -19px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#text{
+    position: relative;
+    left: 200px;
+    top: -95px;
+}
